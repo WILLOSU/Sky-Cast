@@ -1,11 +1,9 @@
-import Hero from "@/components/organisms/Hero";
-import Header from "@/components/organisms/Header";
+import WeatherInfo from "@/components/organisms/WeatherInfo";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <Hero />
-    </>
+    <div>
+      <WeatherInfo city="São Paulo" temperature={28} condition="Ensolarado" />
+    </div>
   );
 }
